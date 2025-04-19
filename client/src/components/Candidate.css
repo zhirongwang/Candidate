@@ -1,0 +1,124 @@
+/* Candidate.css */
+
+.candidate-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .candidate-card h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .candidate-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .candidate-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .candidate-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .candidate-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .candidate-card ul li p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .candidate-card .skills-list {
+    padding: 0;
+  }
+  
+  .candidate-card .skills-list li {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+
+  .degree-item {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .degree-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .degree-column {
+    flex: 1 1 250px;  /* Makes sure the columns are responsive */
+    margin-right: 15px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .degree-column strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .degree-info .degree-column:last-child {
+    margin-right: 0;
+  }
+  
+  .experience-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .experience-details {
+    display: flex;                /* Aligns items horizontally */
+    justify-content: flex-start;  /* Align items to the left */
+    align-items: center;          /* Vertically centers content */
+  }
+  
+  .company, .role {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .company {
+    font-weight: bold;
+    white-space: nowrap;           /* Prevents text from wrapping */
+    overflow: hidden;              /* Hides the overflowed content */
+    text-overflow: ellipsis;       /* Adds ellipsis ("...") when content overflows */
+    flex-grow: 1;                  /* Allows the company to take the remaining space */
+    text-align: left;              /* Ensures company is always left-aligned */
+  }
+  
+  .role {
+    text-align: right;             /* Align the role text to the right */
+    font-style: italic;            /* Italicize the role text */
+    white-space: nowrap;           /* Prevents wrapping of the role text */
+  }
+  
